@@ -1,0 +1,21 @@
+{
+    "issuer": "https://api.trybe.id",
+    "authorization_endpoint": "https://api.trybe.id/oidc/auth",
+    "token_endpoint": "https://api.trybe.id/oidc/token",
+    "registration_endpoint": "https://api.trybe.id/oidc/register",
+    "credential_endpoint": "https://api.trybe.id/oidc/credential",
+    "revocation_endpoint": "",
+    "jwks_uri": "",
+    "response_types_supported": [
+        "code"
+    ],
+    "id_token_signing_alg_values_supported": [
+        "RS256"
+    ],
+    "code_challenge_methods_supported": [
+        "S256"
+    ],
+    "grant_types_supported": [
+        "authorization_code"
+    ]
+}
